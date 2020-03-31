@@ -1,6 +1,6 @@
 {
   "name": "@teleology/lambda-wscore",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lambda Websocket wrapper, creating a message publisher and auto inflation of incoming data",
   "files": [
     "lib/*"

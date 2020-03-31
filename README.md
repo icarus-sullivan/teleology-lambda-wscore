@@ -1,4 +1,4 @@
-# @teleology/lambda-ws
+# @teleology/lambda-wscore
 ![Downloads][link-download] ![Version][link-version] ![License][link-license]
 
 #### A Serverless >=  1.38 Lambda Websocket wrapper. Auto parses data, injects a publish method as well as a quick eventType reference. 
