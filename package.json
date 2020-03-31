@@ -1,0 +1,44 @@
+{
+  "name": "@teleology/lambda-wscore",
+  "version": "1.0.0",
+  "description": "Lambda Websocket wrapper, creating a message publisher and auto inflation of incoming data",
+  "files": [
+    "lib/*"
+  ],
+  "scripts": {
+    "prepare": "npx babel src --out-dir lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icarus-sullivan/teleology-lambda-wscore.git"
+  },
+  "keywords": [
+    "lambda",
+    "websocket",
+    "serverless",
+    "wrapper"
+  ],
+  "author": "Chris Sullivan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/icarus-sullivan/teleology-lambda-wscore/issues"
+  },
+  "homepage": "https://github.com/icarus-sullivan/teleology-lambda-wscore#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.7.5",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.6",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-prettier": "^3.1.1",
+    "prettier": "^1.18.2"
+  },
+  "dependencies": {
+    "aws4": "^1.9.0"
+  }
+}
